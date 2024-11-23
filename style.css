@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgb(3, 3, 55);
+    color: white;
+
+    .poppins-thin {
+        font-family: "Poppins", sans-serif;
+    }
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(7, 7, 85);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+nav ul li a:hover{
+    color:yellow;
+    font-size: 1.1rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    align-items: center;
+    
+}
+.firstsection>div{
+    width: 30%;
+}
+.leftsection{
+   font-size: 3rem;
+   
+}
+
+}
+.rightsection img{
+    width: 80%;
+}
+.purple{
+   
+    color: rgb(214, 170, 255);
+}
+.gray{
+    color: gray;
+}
+#element{
+    color: rgb(214, 170, 255);
+}
+hr{
+    border: 0;
+    background-color: rgb(214, 170, 255);
+    height: 0.3px;
+    margin: 40px 84px;
+
+}
+.secondsection{
+    max-width: 80%;
+    margin: auto;
+}
+.secondsection h1{
+    font-size: 2rem;
+}
+.secondsection .box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondsection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0px  100px;
+}
+.vertical-title{
+    position: relative;
+top: 75px;
+width:150px;
+}
+.vertical-desc{
+
+    position: relative;
+    top: 87px;
+    color:gray;
+    width: 150px;
+    font-size: 9px;
+}
+.image-top{
+    width: 23px;
+    position: relative;
+    top: -23px;
+    left:-9px
+}
+.footer{
+   margin-top: 205px;
+   padding: 20px;
+   /* margin-bottom: 0px; */
+   background-color: rgb(14, 9, 34);
+    display:flex;
+    justify-content: space-evenly
+    /* background-color: rgb(35, 141, 233); */
+}
+.textcentre{
+    text-align: center;
+    color:gray;
+    padding: 12px 0;
+    background-color: rgb(14, 9, 34);
+}
+.btn{
+    background-color: blueviolet;
+    color: white;
+    border: solid 2px white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
